@@ -59,7 +59,7 @@ struct ContentView: View {
                         Text(fruits[index])
                     }
                 }
-                .pickerStyle(.popUpButton)
+                .pickerStyle(.menu)
             }
 
             Section("DatePicker 日期选择") {
